@@ -20,10 +20,9 @@ class About extends React.Component {
                    <h2 style={{paddingTop: '2em'}}>Lakshit Madaan</h2>
                    <h4 style={{color: 'grey'}}>Full Stack web Developer</h4>
                    <hr style={{borderTop: '3px solid #0000CD'}} ></hr>
-                   <p>Strong decision-maker with more than one year of experience in software engineering and application development.Ready to work closely with both teams and customers to identify most efficient and beneficial solutions for process improvement. Skilled worker with proven ability to perform variety of tasks, including maintenance, customer service etc.Ability to multitask,Skilled in operating basic hand tools. Excellent work performance and attendance record.
-                            Dedicated Developer with perseverance and goal-driven work ethic excelling in increasing sales and building customer relationship,achieve product expertise, and create key client relationships.
-                            Worked on Various Projects such as Weather App, Todo App, A social networking platform etc and currently working on implementing blockchain with web.
-                         </p>
+                   <p>
+                      One year of experience as a full stack web developer and currently working on blockchain technology.And made web apps such as Devzone-A social networking website, Ecommerce app,Contact manager etc.
+                  </p>
                    <hr style={{borderTop: '3px solid #0000CD'}} ></hr>
                    <h5>Address</h5>
                    <p>590 Nimri Colony ashok Vihar P-4</p>
@@ -49,10 +48,10 @@ class About extends React.Component {
   <button type="button" className="list-group-item list-group-item-action">Ethereum</button>
 
   <hr style={{borderTop: '3px solid #0000CD'}} ></hr>
-  <h4>Achievements</h4>
-   <ul>
-      <li>First Author on paper 'Working principle,Application areas of blockchain' published in IEEE</li>
-   </ul>
+  <h4 type="button" className="list-group-item list-group-item-action active">
+    Achievements
+  </h4>
+  <button type="button" className="list-group-item list-group-item-action">First Author in paper 'Working principle, Application areas of blockchain' published in IEEE</button>
 </div>
                   
                 </Cell>
@@ -62,10 +61,10 @@ class About extends React.Component {
                       <h1 className="text-center bg-secondary">Education</h1>
                       <div className="text-center container"> 
                         <Education/>
-                        <br/>
+                        <hr style={{borderTop: '5px dotted'}} />
                         <h1 className="text-center bg-secondary">Experince</h1>
                         <Experience/>
-                        <br/>
+                        <hr style={{borderTop: '5px dotted'}} />
                         <div>
                            <h1 className="text-center bg-secondary">Certifications</h1>
                            <Skills progress={90}/>
