@@ -1,44 +1,29 @@
-import React from 'react';
-import Main from './components/Main';
-import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
-import './App.css'
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Testimonials from  './components/Testimonials';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+//import CarouselHomepage from './components/CarouselHomepage'
+import resumeData from './resumeData';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
-
-function App() {
-  return (
-       
-    <div className="demo-big-content">
-    <Layout>
-        <Header className="header-color " title="Lakshit" scroll>
-            <Navigation>
-                <Link to='/'>Home</Link>
-                
-                <Link to='/projects'>Projects</Link>
-                <Link to='/about'>Resume</Link>
-               
-            </Navigation>
-        </Header>
-        <Drawer title="Lakshit">
-        <Navigation>
-                <Link to='/'>Home</Link>
-            
-                <Link to='/projects'>Projects</Link>
-                <Link to='/about'>Resume</Link>
-               
-            </Navigation>
-        </Drawer>
-        <Content>
-            <div className="page-content" />
-            <Main/>
-        </Content>
-    </Layout>
-</div>
-      
-   
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <Testimonials resumeData={resumeData} />
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
+      </div>
+    );
+  }
 }
 
 export default App;
