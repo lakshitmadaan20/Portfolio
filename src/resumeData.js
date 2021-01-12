@@ -136,41 +136,7 @@ let resumeData = {
         "name":""
       }
 
-    ],
-    "portfolio1":[
-      {
-        "link": "",
-        "name":"Cetificate",
-        "description":"",
-        "imgurl":"images/hack.jpeg"
-      },
-      {"link": "",
-        "name":"Certificate",
-        "description":"",
-        "imgurl": "images/1.jpg"
-      },
-      {
-        "name":"Certificate",
-        "imgurl":"images/Certificate.png"
-      },
-      {
-        "name":"Certificate",
-        "imgurl":"images/3.jpeg"
-      },
-      {
-        "name":"Certificate",
-        "imgurl":"images/2.jpg"
-      },
-      {
-        "name":"Certificate",
-        "imgurl":"images/5.jpeg"
-      },
-      {
-        "name":"Certificate",
-        "imgurl":"images/6.jpeg"
-      }
-      
-    ],
+    ]
   }
   
   export default resumeData
