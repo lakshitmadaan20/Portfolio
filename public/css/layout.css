@@ -36,7 +36,7 @@ header {
    text-align: center;
    overflow: hidden;
    color: #fff;
-   background: url("https://i.pinimg.com/originals/a5/de/39/a5de392b257f6c85f23c0a7cc91feb95.gif");  /* fallback for old browsers */
+   background: url("../images/2222.gif");  /* fallback for old browsers */
    background-size: 100% 100%;
 }
 
@@ -48,19 +48,19 @@ header {
 
 @keyframes animate{
    0% {
-      content: 'Web Designer';
+      content: 'Web Developer';
    }
    25% {
-      content: 'Professional Makeup Artist';
+      content: 'Full Stack Developer';
    }
    50% {
-      content: 'Content Creator';
+      content: 'Blockchain Developer';
    }
    75%{
-      content:'Digital Marketer'
+      content:'Frontend Developer'
    }
    100%{
-      content:'Social Media Marketing'
+      content:'Smart Contracts'
    }
 }
 
@@ -233,7 +233,7 @@ ul#nav li.current a { color: #e9182a; }
 }
 #about .profile-pic {
    position:relative;
-   width: 180px;
+   width: 200px;
    height: 200px;
    border-radius: 100%;
 }
@@ -353,27 +353,23 @@ ul#nav li.current a { color: #e9182a; }
 
 /* Dark Grey */
 
-.photoshop {
+.smartcontract {
   	width: 90%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
+.blockchain {
   	width: 55%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
+
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.angularjs {
+.reactjs {
    width: 90%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
@@ -398,13 +394,9 @@ ul#nav li.current a { color: #e9182a; }
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
-.makeupartist {
-   width: 100%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
-}
-.digitalmarketing {
-   width: 90%;
+
+.aws {
+   width: 70%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
@@ -419,8 +411,8 @@ ul#nav li.current a { color: #e9182a; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
+.ethereum {
+  	width: 90%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }

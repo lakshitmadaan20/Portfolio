@@ -13,7 +13,7 @@ export default class Footer extends Component {
                 return(
                   <li key={item.name}>
                     <a href={item.url}>
-                    <Button size="big" color={item.color}>
+                    <Button size="huge" color={item.color}>
                       <Icon name={item.name} /> {item.header}
                     </Button>
                     </a>
@@ -21,7 +21,8 @@ export default class Footer extends Component {
                 )
               })
             }
-          </ul>
+            </ul>
+           
           
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

@@ -9,7 +9,7 @@ export default class About extends Component {
 
             <div className="three columns">
 
-               <img className="profile-pic" src="images/pic.jpeg" alt="" />
+               <img className="avatar-img" src="images/pic.jpeg" alt="" />
 
             </div>
 
@@ -31,11 +31,11 @@ export default class About extends Component {
        						<span>{resumeData.name}</span>
                      <br></br>
        					<span>
-                      <a href = "mailto: dikshita.jindal2201@gmail.com">Send Email  <i className="fa fa-envelope"></i> </a>
+                      <a href = "mailto: lakshitmadaan@gmail.com">Send Email  <i className="fa fa-envelope"></i> </a>
                     </span>
                     <br/>
                     <span className="address">
-                    <a href="tel:8700416194">Make a Phone call  <i className="fa fa-phone"></i> </a>
+                    <a href="tel:8377057734">Make a Phone call  <i className="fa fa-phone"></i> </a>
                     </span>
                     <br/>
                     <span>
@@ -44,7 +44,7 @@ export default class About extends Component {
                     <br></br>
                     <a href={resumeData.website} >{resumeData.website}</a>
        					   </p>
-                    <a href="images/dikshufrappresume.pdf" download>
+                    <a href="images/resume.pdf" download>
                        <Button size="huge" color="green">Resume   <i className="fa fa-download"></i> </Button>
                     </a>
                   </div>
