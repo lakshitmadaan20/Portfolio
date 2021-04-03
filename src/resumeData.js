@@ -4,7 +4,7 @@ let resumeData = {
     "role": "",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I am a Full stack web developer with more than 1 year of experience, Currently working on new technologies like Blockchain and also on research papers realted to blockchain technology",
+    "roleDescription": "I am a Full stack web developer with more than 2 year of experience, Currently working on new technologies like Blockchain and also on research papers realted to blockchain technology",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -108,7 +108,7 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "link": "https://github.com/danisharora099/facial_recog/tree/main",
+        "link": "https://github.com/danisharora099/facial_recog/",
         "name": "Maximising Security Using Blockchain And ML",
         "description": "Webapp/DApp",
         "imgurl": "https://t-images.imgix.net/https%3A%2F%2Fstatic.t-cdn.net%2F5e564d5760a1b0133aba2215%2Fposts%2F5edf34bfc3488338faaecc33%2F5edf34bfc3488338faaecc33_53285.png?width=1240&w=1240&auto=format%2Ccompress&ixlib=js-2.3.1&s=b546126d09e0c5206ced4f70dc4af2ec"
@@ -173,6 +173,10 @@ let resumeData = {
       {
         "description": "MERN/UI Development",
         "name" : ""
+      },
+      {
+        "description": "E book Author of Book 'Blockchain: the Revolutionizing Technology' ",
+        "name" : "https://www.amazon.in/dp/B091KXPR3Q/ref=sr_1_29?dchild=1&keywords=Blockchain+revolution&qid=1617439359&sr=8-29"
       }
 
     ]
